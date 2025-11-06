@@ -16,7 +16,7 @@
 * AWS マネジメントコンソールにサインインして、**講師より指定されたリージョン**を選択した状態にしてください。
 * ご自分に割り当てられた **2桁の番号**を覚えておいてください。
 * 下記をクリックして、Download Raw file アイコンから **AnyCompany.pdf** をダウンロードして下さい。
-    - (https://github.com/tetsuo-nobe/bedrock-work/blob/main/knowledgebase/AnyCompany.pdf)
+    - (https://github.com/tetsuo-nobe/academy20251126/blob/main/knowledgebase/AnyCompany.pdf)
     - この PDF は架空の会社 AnyCompany の休暇規定です。
 
 
@@ -165,4 +165,5 @@
 ### お疲れさまでした。
 
 * **このワークの環境は、ワークを実施する時間帯のみ使用可能です。**
+
 
