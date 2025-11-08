@@ -182,6 +182,9 @@ def lambda_handler(event, context):
     - ```
       AnyCompany社の製品ID P001 の製品の情報を教えてください。
       ```
+    - ```
+      旅行に興味があります。京都で有名な観光地を3つ挙げて下さい。
+      ```
 1. **コードから Bedrock のエージェントを使用した問い合わせができたことを確認しました。**
 
 * 参考ドキュメント: [boto3 ドキュメントの invoke_agent](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/bedrock-agent-runtime/client/invoke_agent.html)
@@ -210,6 +213,7 @@ def lambda_handler(event, context):
 ### お疲れさまでした。
 
 * **このワークの環境は、ワークを実施する時間帯のみ使用可能です。**
+
 
 
 
