@@ -151,7 +151,7 @@ def lambda_handler(event, context):
 
 1. ターミナルから以下のコマンドを実行して、AWS SDK for Python (boto3) を最新のものに更新します。
     - ```
-      cd ~/environment/bedrock-work/capstone/
+      cd ~/environment/academy20251126/agent/
       
       pip install boto3 --upgrade
       
@@ -199,6 +199,7 @@ def lambda_handler(event, context):
 ### お疲れさまでした。
 
 * **このワークの環境は、ワークを実施する時間帯のみ使用可能です。**
+
 
 
 
