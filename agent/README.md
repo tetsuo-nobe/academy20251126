@@ -118,7 +118,9 @@ def lambda_handler(event, context):
 1. Amazon Bedrock のページに戻ります。
 1. ページ右側の **テスト** で **準備**　を選択します。
 1. ページ下側で下記のプロンプトを入力します。
-    - `AnyCompany社の製品ID P001 の製品の情報を教えてください。`
+    - ```
+      AnyCompany社の製品ID P001 の製品の情報を教えてください。
+      ```
 1. Enter キーで送信します。
 1. モデルからの回答を確認します。
 1. **トレースを表示＞**　を選択します。
@@ -173,6 +175,10 @@ def lambda_handler(event, context):
        streamlit run agent_chat.py --server.port  8090
        ```
 
+1. ページ下側で下記のプロンプトを入力します。
+    - ```
+      AnyCompany社の製品ID P001 の製品の情報を教えてください。
+      ```
 1. **コードから Bedrock のエージェントを使用した問い合わせができたことを確認しました。**
 
 * 参考ドキュメント: [boto3 ドキュメントの invoke_agent](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/bedrock-agent-runtime/client/invoke_agent.html)
@@ -201,6 +207,7 @@ def lambda_handler(event, context):
 ### お疲れさまでした。
 
 * **このワークの環境は、ワークを実施する時間帯のみ使用可能です。**
+
 
 
 
