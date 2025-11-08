@@ -172,6 +172,7 @@ def lambda_handler(event, context):
       ```
 
 1. agent フォルダの agent_chat.py コードの必要部分を書き換えます。
+    - ヒント: 13 行目と 14 行目
 
 1. テスト実行時は、ターミナルから下記を実行し、表示される External URLにアクセスします。 (停止時は Ctrl + c )
      - ```
@@ -213,6 +214,7 @@ def lambda_handler(event, context):
 ### お疲れさまでした。
 
 * **このワークの環境は、ワークを実施する時間帯のみ使用可能です。**
+
 
 
 
