@@ -152,16 +152,16 @@ def lambda_handler(event, context):
 1. ターミナルから以下のコマンドを実行して、AWS SDK for Python (boto3) を最新のものに更新します。
     - ```
       git clone https://github.com/tetsuo-nobe/academy20251126.git
-      
+      ```
+    - ```
       cd ~/environment/academy20251126/agent/
-      
+      ```
+    - ```
       pip install boto3 --upgrade
-      
       ```
 
 1. ターミナルから以下のコマンドを実行して、Streamlit をインストールします。
     - ```
-      
       pip install  streamlit
       
       ```
@@ -201,6 +201,7 @@ def lambda_handler(event, context):
 ### お疲れさまでした。
 
 * **このワークの環境は、ワークを実施する時間帯のみ使用可能です。**
+
 
 
 
