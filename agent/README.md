@@ -219,7 +219,7 @@ def lambda_handler(event, context):
 ## Lambda 関数の削除
 1. AWS Lambda のページに切り替えます。
 1. 編集した Lambda 関数のページで **アクション** - **関数の削除** を選択します。
-1. 確認のダイアログで **削除** を選択します。
+1. 確認のダイアログで必要なフレーズを入力して **削除** を選択します。
 
 ## CloudWatch ログの削除
 1. Amazon CloudWatch のページに切り替えます。
@@ -231,6 +231,7 @@ def lambda_handler(event, context):
 ### お疲れさまでした。
 
 * **このワークの環境は、ワークを実施する時間帯のみ使用可能です。**
+
 
 
 
